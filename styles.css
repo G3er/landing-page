@@ -18,7 +18,7 @@ body{
 
 .navbar{
     display: flex;
-    height: 20%;
+    height: 10%;
     justify-content:center;
 }
 
@@ -56,4 +56,51 @@ ul li a:hover{
 ul li a{
     font-style: italic;
     transition: .3s;
+}
+
+
+.upper{
+    display: flex;
+    height: 80%;
+    align-items: center;
+}
+
+.column {
+    flex-basis: 20%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.subtext {
+    color: rgb(47, 149, 47);
+    line-height: 20px;
+}
+
+h1, .subtext, .upper {
+    color: rgb(11, 86, 26);
+    gap: 100px;
+    justify-content: center;
+}
+
+.card {
+    color: rgb(1, 18, 18);
+    font-weight: 400;
+    width: 400px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(photo-1503424886307-b090341d25d1.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
 }
