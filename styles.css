@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -109,7 +108,7 @@ h1, .subtext, .upper {
     display: flex;
     font-size: 60px;
     font-weight: 800;
-    color: rgb(42, 77, 65);
+    color: rgb(212, 207, 217);
     text-align: center;
     justify-content: center;
     
@@ -188,3 +187,76 @@ a {
     transform: translateY(-10px);
 }
 
+
+.mother {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 9, 3);
+}
+
+
+ .description {
+    width: 450px;
+    height: 250px;
+    cursor: pointer;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+    inline-size: 484px;
+    margin: 20px 10px;
+    border: 8px;
+    border-style: groove;
+    border-color: darkgray;
+    color: cornsilk;
+    background-image: url(canyon.jpg);
+}
+
+.footer {
+    background-color: #334838;
+    color: rgb(245, 245, 245);
+    padding: 30px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footertext {
+    flex: 1 1 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footertext h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .footertext p {
+    font-size: 16px;
+  }
+  
+  .footerbutton {
+    flex: 0 0 100%;
+    text-align: center;
+  }
+  
+  .footer-button {
+    padding: 12px 24px;
+    background-color: #303b47;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .footer-button:hover {
+    background-color: #375a80;
+  }
