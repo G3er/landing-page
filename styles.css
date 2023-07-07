@@ -60,7 +60,7 @@ ul li a{
 
 .upper{
     display: flex;
-    height: 80%;
+    height: 60%;
     align-items: center;
 }
 
@@ -106,6 +106,7 @@ h1, .subtext, .upper {
 
 .midsay {
     display: flex;
+    padding: 100px;
     font-size: 60px;
     font-weight: 800;
     color: rgb(212, 207, 217);
@@ -119,7 +120,7 @@ h1, .subtext, .upper {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
     gap: 20px;
     background-color:rgb(0, 9, 3);
 }
@@ -204,7 +205,7 @@ a {
     font-size: 28px;
     text-align: center;
     padding-top: 20px;
-    inline-size: 484px;
+    inline-size: 480px;
     margin: 20px 10px;
     border: 8px;
     border-style: groove;
